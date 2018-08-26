@@ -12,5 +12,11 @@ public class DemoApplicationTests {
 	@Test
 	public void contextLoads() {
 	}
+	
+	@Test
+	public void runMain() {
+		String[] args = new String[] {"Hello", "World"};
+		DemoApplication.main(args);
+	}
 
 }
